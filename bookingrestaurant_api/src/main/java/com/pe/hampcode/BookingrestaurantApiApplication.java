@@ -35,7 +35,7 @@ public class BookingrestaurantApiApplication {
 		SpringApplication.run(BookingrestaurantApiApplication.class, args);
 	}
 
-	/*@Bean
+	@Bean
 	public CommandLineRunner demo() {
 		return (args) -> {
 			// Guardar algunos clientes
@@ -71,5 +71,5 @@ public class BookingrestaurantApiApplication {
 			});
 			System.out.println("");
 		};
-	}*/
+	}
 }
