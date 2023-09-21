@@ -35,11 +35,12 @@ public class BookingrestaurantApiApplication {
 		SpringApplication.run(BookingrestaurantApiApplication.class, args);
 	}
 
-	/*@Bean
+	@Bean
 	public CommandLineRunner demo() {
 		return (args) -> {
 			// Guardar algunos clientes
 			Customer customer1 = new Customer(1l, "Jack", "Bauer","HHH");
+			Customer customer4 = new Customer(1l, "Jack", "Bauer","HHH");
 			customerRepository.save(customer1);
 
 			Restaurant restaurant1 = new Restaurant(1l,"Restaurante A","Restaurante A");
@@ -71,5 +72,5 @@ public class BookingrestaurantApiApplication {
 			});
 			System.out.println("");
 		};
-	}*/
+	}
 }
