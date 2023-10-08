@@ -1,11 +1,11 @@
 package com.pe.hampcode;
 
-import com.pe.hampcode.customer.domain.entity.Customer;
-import com.pe.hampcode.reservation.domain.entity.Reservation;
-import com.pe.hampcode.restaurant.domain.entity.Restaurant;
-import com.pe.hampcode.customer.domain.persistence.CustomerRepository;
-import com.pe.hampcode.reservation.domain.persistence.ReservationRepository;
-import com.pe.hampcode.restaurant.domain.persistence.RestaurantRepository;
+import com.pe.hampcode.entity.Customer;
+import com.pe.hampcode.entity.Reservation;
+import com.pe.hampcode.entity.Restaurant;
+import com.pe.hampcode.repository.CustomerRepository;
+import com.pe.hampcode.repository.ReservationRepository;
+import com.pe.hampcode.repository.RestaurantRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
