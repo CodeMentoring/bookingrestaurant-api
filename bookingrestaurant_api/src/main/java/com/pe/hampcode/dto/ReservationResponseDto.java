@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 public class ReservationResponseDto {
     private Long id;
-    private LocalDateTime reservationDateTime;
+    private String reservationDateTime;
     private int numberOfPeople;
     private CustomerResponseDto customer;
     private RestaurantResponseDto restaurant;

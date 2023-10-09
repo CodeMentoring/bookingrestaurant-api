@@ -1,9 +1,9 @@
 package com.pe.hampcode;
 
 import com.pe.hampcode.entity.Customer;
+import com.pe.hampcode.repository.CustomerRepository;
 import com.pe.hampcode.entity.Reservation;
 import com.pe.hampcode.entity.Restaurant;
-import com.pe.hampcode.repository.CustomerRepository;
 import com.pe.hampcode.repository.ReservationRepository;
 import com.pe.hampcode.repository.RestaurantRepository;
 import org.springframework.beans.factory.annotation.Autowired;

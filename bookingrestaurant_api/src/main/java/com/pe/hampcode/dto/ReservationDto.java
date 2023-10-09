@@ -3,11 +3,11 @@ package com.pe.hampcode.dto;
 
 import jakarta.validation.constraints.Future;
 import jakarta.validation.constraints.NotBlank;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
-@Getter
-@Setter
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class ReservationDto {
 
     @NotBlank(message = "La fecha y hora de reserva no puede estar en blanco.")
